@@ -1,0 +1,32 @@
+<resources>
+
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/BACKGROUND</item>
+        <item name="colorPrimaryDark">@color/BACKGROUND</item>
+        <item name="colorAccent">@color/PRIMARY_VARIANT</item>
+
+    </style>
+
+    <style name="AppTheme.NoActionBar">
+        <item name="android:windowDrawsSystemBarBackgrounds">true</item>
+        <item name="android:statusBarColor">@android:color/transparent</item>
+        <item name="android:windowTranslucentStatus">true</item>
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+    </style>
+
+<!--    &lt;!&ndash; res/values-v19/styles.xml &ndash;&gt;-->
+<!--    <style name="AppTheme" parent="Base.AppTheme">-->
+<!--        <item name="android:windowTranslucentStatus">true</item>-->
+<!--    </style>-->
+
+<!--    &lt;!&ndash; res/values-v21/styles.xml &ndash;&gt;-->
+<!--    <style name="AppTheme" parent="Base.AppTheme">-->
+<!--        <item name="android:windowDrawsSystemBarBackgrounds">true</item>-->
+<!--        <item name="android:statusBarColor">@android:color/transparent</item>-->
+<!--    </style>-->
+    
+
+</resources>
